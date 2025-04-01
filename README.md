@@ -19,6 +19,7 @@ The assigned work for this HW are as follows:
 
 The first query we were told to write was to find all movies with a runtime greater than 200 minutes in the year 1983, with the movies sorted by increasing runtime. We are also to only display the following fields: runtime, title, and year.
 Here is the query I made with its result:
+
 ![image](https://github.com/user-attachments/assets/908ab370-317b-4b19-a091-20e0e6c1ce10)
 
 The first argument in find() will actually get the movies with the desired criteria, the second will ensure the only fields in the output are the desired ones. I also added a .sort() method on the end to ensure that it would be ordered in increasing runtime.
@@ -27,6 +28,7 @@ The first argument in find() will actually get the movies with the desired crite
 
 The second query we were told to write is to find all movies that came out after the year 2014, with an IMDb rating greater than 9.
 Here is the query and its result:
+
 ![image](https://github.com/user-attachments/assets/18f8a168-9b08-4a72-a0fe-775ef9239136)
 
 Once again, we use a find() to get the result. The first argument will get only the movies of the queries requirements, and the second will only show the fields that were requested. Also, I sorted the movies on decreasing rating in order to get the desired order in the sample output.
